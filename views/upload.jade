@@ -1,0 +1,10 @@
+doctype htm
+html
+  head
+    title!= title
+  body
+    div.uploadbox
+    form(id="upload", action="/upload", method="post", enctype="multipart/form-data")
+      input(type="file", name="uploadFile", id="uploadFile")
+      input(type="hidden", id="molduraID", name="molduraID")
+      input(type="hidden", id="posicaoID", name="posicaoID")
