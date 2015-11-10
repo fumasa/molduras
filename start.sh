@@ -1,10 +1,10 @@
 #!/bin/bash
 
 cd /tmp
-echo ´pwd´
+pwd
 rm -rf molduras
 git clone https://github.com/fumasa/molduras.git
 cd molduras
-echo ´pwd´
+pwd
 npm install
 node .
