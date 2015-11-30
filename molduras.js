@@ -26,7 +26,7 @@ nconf.defaults({
     },
     'http': {
       'host': '0.0.0.0',
-      'port' : 8080
+      'port' : 3000
     },
     'mongodb': {
       'host': '192.168.99.100',
