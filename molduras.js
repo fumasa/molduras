@@ -29,8 +29,8 @@ nconf.defaults({
       'port' : 8080
     },
     'mongodb': {
-      'host': '146.148.87.90',
-      'port': '27017',
+      'host': '192.168.99.100',
+      'port': '32768',
       'database': 'molduras',
     },
     'gcloud': {
